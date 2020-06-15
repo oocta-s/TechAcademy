@@ -1,0 +1,96 @@
+body{
+    font-family: Lato;
+    background-color: white;
+}
+.hero-text{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: Georgia;
+    font-size: 1em;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.navbar a{
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+}
+/* Styling the search box inside the nav bar */
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 12px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.float{
+	padding-top: 20px;
+	margin-left: 30px;
+	display: flex;
+}
+.same{
+	width: 32%;
+	float: right;
+	margin-right: 1.33%;
+}
+
+img{
+	width: 100%;
+	height: 500px;
+	border-radius: 50%;
+}
+.container {
+    padding: 16px;
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: ;
+}
+.joinbtn{
+    background-color:black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    opacity: 0.9;
+}
+.cclbtn{
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    opacity: 0.9;
+}
+
+a {
+    color: dodgerblue;
+}  
+html{
+	height: 100%;
+}
